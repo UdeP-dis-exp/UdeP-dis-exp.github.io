@@ -1,1 +1,1 @@
-a UdeP-dist-exp
+Diseño Experimental

@@ -5,6 +5,7 @@ custom_js: 'mathjax'
 order: 2
 ---
 
+
 ## Documentos básicos:
 
  - Coleman, David E. y Montgomery, Douglas C. [A Systematic Approach to Planning for a Designed Industrial Experiment](./docs/ASystematicApproachtoPlanningforaDesignedIndustrualExperiment.pdf){:target="_blank"}. Technometrics, Februrady 1993, vol 35, Nro 1.

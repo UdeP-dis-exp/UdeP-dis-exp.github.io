@@ -1,0 +1,11 @@
+#---------------#
+# Site settings #
+#---------------#
+
+url: http://unac-estadistica.github.io
+title: Diseño Experimental
+subtitle: Universidad de Pamplona
+simple_search: https://www.google.com/search
+description: Guia para el curso de Diseño Experimental
+baseurl: ""
+permalink: /:categories/:title/

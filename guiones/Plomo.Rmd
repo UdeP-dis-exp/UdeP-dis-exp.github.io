@@ -1,0 +1,63 @@
+---
+title: "Comparación de laboratorios"
+author: "Universidad de Pamplona"
+date: "Domingo 11 de octubre de 2015"
+output: 
+  html_document: 
+    toc: yes
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.width=7, 
+                      fig.height=6)
+```
+
+
+## Base de datos original
+
+ ![](plomo.png) 
+
+
+## Lectura de la base de datos
+
+```{r}
+lab_plomo <- read.csv2("Plomo.csv", encoding = "latin1")
+```
+
+## Cálculo de estadísticos
+
+```{r}
+medias <- with(lab_plomo, tapply(Pb, lab, mean))
+medias
+desv_est <- with(lab_plomo, tapply(Pb, lab, sd))
+desv_est
+```
+
+## Gráfica exploratoria
+```{r}
+with(lab_plomo, plot(lab, Pb))
+
+with(lab_plomo, plot(lab, Pb, pch = 19))
+
+with(lab_plomo, plot(lab, Pb, pch = 19))
+with(lab_plomo, points(unique(lab), medias, pch = 17, col = "red"))
+```
+
+## Gráfica exploratoria
+```{r}
+require(ggplot2)
+g1 <- ggplot(lab_plomo, aes(factor(lab), Pb))
+g1 + geom_point() +
+     stat_summary(fun.y="mean", geom = "point", col = "red", shape = 17)
+```
+
+## Tabla anova correspondiente
+```{r}
+modelo1 <- aov(Pb ~ factor(lab), data = lab_plomo)
+summary(modelo1)
+```
+
+## Ejercicio (Con Cromo)
+
+ ![](cromo.png) 
+

@@ -34,9 +34,8 @@ esperimental desde el punto de vista estadístico.
 
 | Item                                           | Porcentaje |
 |:-----------------------------------------------|:----------:|
-| Diseño preliminar de un experimento casero     |        20% |
-| Talleres y tareas                              |        30% |
-| Final individual (Resultados diseño casero)    |        50% |
+| Talleres y tareas                              |        50% |
+| Exposición del diseño experimental propio      |        50% |
 {: .table .table-hover}
 
 ## Enlaces importantes

@@ -17,7 +17,8 @@ order: 2
  
 ## Presentaciones
  
- * [Presentación 1](./docs/presentacion1.pdf){:target="_blank"} 
+ * [Presentación 1](./docs/presentacion1.pdf){:target="_blank"}
+ * [Presentación 2](./docs/presentacion2.pdf){:target="_blank"} 
 
 ## Guías para parámetros gráficos
 

@@ -15,7 +15,14 @@ order: 2
 
  * [Cálculo del tamaño de muestra mediante piface](http://homepage.stat.uiowa.edu/~rlenth/Power/){:target="_blank"}
  
+## Presentaciones
  
+ * [Presentación 1](./docs/presentacion1.pdf){:target="_blank"} 
 
+## Guías para parámetros gráficos
+
+- [Tabla de colores](./docs/ColorChart.pdf){:target="_blank"}
+- [Tabla de símbolos](./docs/points.png){:target="_blank"}
+- [Tabla de líneas](./docs/lines.png){:target="_blank"}
 
 
